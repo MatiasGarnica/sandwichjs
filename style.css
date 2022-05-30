@@ -1,0 +1,46 @@
+header{
+    background-color: #363333;
+    padding: 2em 2em;
+    color: aliceblue;
+}
+body{
+    margin: auto;
+    background-color: rgb(42, 34, 34);
+}
+#pedido{
+    background-color: rgb(249, 151, 40);
+    margin: 2em 2em;
+    border-radius: 2em;
+    border: 2px solid rgb(179, 107, 13);
+    padding: 2em 2em;
+    line-height: 2;
+}
+#pedido td{
+    padding: 2em 2em;
+}
+select{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #555555;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 2px 2px;
+    border-radius: 4px;
+    border: 2px solid #2ab4cf;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 2px 4px rgb(21, 155, 213) ;
+    background-color: black;
+}
+button:active{
+    transform: translateY(4px);
+}
