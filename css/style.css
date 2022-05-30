@@ -6,6 +6,8 @@ header{
 body{
     margin: auto;
     background-color: rgb(42, 34, 34);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 #pedido{
     background-color: rgb(249, 151, 40);
