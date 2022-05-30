@@ -44,3 +44,15 @@ button:hover{
 button:active{
     transform: translateY(4px);
 }
+
+#pedido2{
+    background-color: rgb(249, 151, 40);
+    margin: 2em 2em;
+    border-radius: 2em;
+    border: 2px solid rgb(179, 107, 13);
+    padding: 2em 2em;
+    line-height: 3;
+}
+#pedido2 td{
+    padding: 2em 2em;
+}

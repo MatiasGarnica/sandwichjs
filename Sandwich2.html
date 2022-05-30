@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Bienvenidos!</h2>
+        <h4>A continuación podrás tomar tu pedido...</h4>
+    </header>
+    <div id="pedido2">
+
+        <td>Elige la proteina</td>
+        <select id="select">
+            <option name="ingredientes" value="Carne" class="valores">Carne</option>
+            <option name="ingredientes" value="Pollo" class="valores">Pollo</option>
+            <option name="ingredientes" value="Pescado" class="valores">Pescado</option>
+            <option name="ingredientes" value="Vegetariana" class="valores">Vegetariana</option>
+        </select><br>
+        <td>Elige el tipo de pan</td>        
+        <select id="select">
+            <option name="ingredientes" value="Frances" class="valores">Frances</option>
+            <option name="ingredientes" value="Salvado" class="valores">Salvado</option>
+            <option name="ingredientes" value="Integral" class="valores">Integral</option>
+        </select><br>    
+   
+        <td>Elige el tipo de queso</td>   
+        <select id="select">
+            <option name="ingredientes" value="Muzzarella" class="valores">Muzzarella</option>
+            <option name="ingredientes" value="Provolone" class="valores">Provolone</option>
+            <option name="ingredientes" value="Cheddar" class="valores">Cheddar</option>
+            <option name="ingredientes" value="Suizo" class="valores">Suizo</option>
+        </select><br>
+    </div>
+    <div id="pedido">    
+        <p>Elige los ingredientes a agregar:</p>     
+        <input type="checkbox" name="ingredientes" value="Tomate" class="valores">
+        <label for="">Tomate</label>
+        <input type="checkbox" name="ingredientes" value="Jamon" class="valores">
+        <label for="">Jamon</label>
+        <input type="checkbox" name="ingredientes" value="Huevo" class="valores">
+        <label for="">Huevo</label>
+        <input type="checkbox" name="ingredientes" value="Lechuga" class="valores">
+        <label for="">Lechuga</label>
+        <p>Elige los aderezos...</p>
+        <input type="checkbox" name="ingredientes" value="Mayonesa" class="valores">
+        <label for="">Mayonesa</label>
+        <input type="checkbox" name="ingredientes" value="Ketchup" class="valores">
+        <label for="">Ketchup</label>
+        <input type="checkbox" name="ingredientes" value="Cheddar" class="valores">
+        <label for="">Cheddar</label>
+        <input type="checkbox" name="ingredientes" value="Mostaza" class="valores">
+        <label for="">Mostaza</label><br>
+
+        <button id="rdo" onclick="Resultado()">Enviar</button><br>
+
+        <td>Elegiste los siguientes ingredientes:</td>
+        <div id="lista"></div>
+        <div id="precio"></div>
+
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
